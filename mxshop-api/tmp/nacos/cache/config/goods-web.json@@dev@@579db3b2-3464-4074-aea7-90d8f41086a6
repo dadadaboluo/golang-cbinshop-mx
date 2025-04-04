@@ -1,0 +1,16 @@
+{
+  "host": "192.168.56.1",
+  "name": "goods-web",
+  "port": 8021,
+  "tags": ["mxshop", "cbin", "goods", "web"],
+  "goods_srv": {
+    "name": "goods-srv"
+  },
+  "jwt": {
+    "key": "44v^z%e2boyqBp4SapX*Q1sPzKIiU*8a"
+  },
+  "consul": {
+    "host": "192.168.56.10",
+    "port": 8500
+  }
+}

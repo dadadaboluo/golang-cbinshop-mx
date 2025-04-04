@@ -1,0 +1,16 @@
+{
+  "name": "inventory-srv",
+  "host": "192.168.56.1",
+  "tags": ["mxshop", "cbin", "inventory", "srv"],
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "root",
+    "password": "hsp",
+    "db": "mxshop_inventory_srv"
+  },
+  "consul": {
+    "host": "192.168.56.10",
+    "port": 8500
+  }
+}

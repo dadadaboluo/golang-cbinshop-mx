@@ -1,0 +1,18 @@
+name: 'user-srv'
+user-srv:
+    ip: '0.0.0.0'
+    port: 50051
+mysql:
+  host: '127.0.0.1'
+  port: 3306
+  db: 'mxshop_user_srv'
+  user: 'root'
+  password: 'hsp'
+
+redis:
+  host: '192.168.56.10'
+  port: 6379
+
+consul:
+  host: '192.168.56.10'
+  port: 8500

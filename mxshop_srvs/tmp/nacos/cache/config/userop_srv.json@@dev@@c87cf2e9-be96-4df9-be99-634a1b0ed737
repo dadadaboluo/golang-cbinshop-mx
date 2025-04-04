@@ -1,0 +1,16 @@
+{
+  "name": "userop-srv",
+  "host": "192.168.56.1",
+  "tags": ["mxshop", "cbin", "userop", "srv"],
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "root",
+    "password": "hsp",
+    "db": "mxshop_userop_srv"
+  },
+  "consul": {
+    "host": "192.168.56.10",
+    "port": 8500
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "host": "192.168.56.1",
+  "name": "userop-web",
+  "port": 8021,
+  "tags": ["mxshop", "cbin", "userop", "web"],
+  "goods_srv": {
+    "name": "goods-srv"
+  },
+ "userop_srv": {
+    "name": "userop-srv"
+  },
+  "jwt": {
+    "key": "44v^z%e2boyqBp4SapX*Q1sPzKIiU*8a"
+  },
+  "consul": {
+    "host": "192.168.56.10",
+    "port": 8500
+  }
+}
